@@ -6,4 +6,10 @@
 #누가 기륵했는가 (git config --global user.namer ,user.email)
 #commit 단계
 # git commit -m '커밋 메세지'
+#git log 기록확인
 
+맨 처음 폴더 git 이 관리 할건지 안할건지
+1.git init (폴더당 딱 한번) 끝에 master가 보인다면 init 할 필요없음
+2.파일을 기록하고 싶다면 git add 파일명
+                       git commit -m '커밋메세지'
+3.수정사항 발생 -> 다시 2번 반복
